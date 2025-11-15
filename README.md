@@ -1,15 +1,17 @@
- YOLOv8_Vehicle_Detection_Project
+YOLOv8\_Vehicle\_Detection\_Project
 
- Explain
--  دیتاست عکس 100 وسیله نقلیه (5 کلاس: Car, Bicycle, Bus, Truck, Motorcycle)
-- مدل‌ها: Fine-tune YOLOv8n/s/m, mAP@0.5 Val=0.256 (بهترین).
-- مقایسه:  model_comparison.csv.
-- WandB: https://wandb.ai/[Iman-ac]/yolo-vehicle-detection
-- PDF: yolo_report.pdf (روال, جدول, تصاویر)
+Explain
+
+* دیتاست عکس 100 وسیله نقلیه (5 کلاس: Car, Bicycle, Bus, Truck, Motorcycle)
+* مدل‌ها: Fine-tune YOLOv8n/s/m, mAP@0.5 Val=0.256 (بهترین).
+* مقایسه:  model\_comparison.csv.
+* WandB: https://wandb.ai/\[tajmiri-iman-engineer]/yolo-vehicle-detection
+* PDF: yolo\_report.pdf (روال, جدول, تصاویر)
 
 Run
 pip install -r requirements.txt
-python train_yolo.py  
+python train\_yolo.py
 
- Requirements
+Requirements
 ultralytics wandb pandas reportlab
+
