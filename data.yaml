@@ -1,0 +1,7 @@
+path: ./data
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names: ['Bicycle', 'Bus', 'Car', 'Motorcycle', 'Truck']

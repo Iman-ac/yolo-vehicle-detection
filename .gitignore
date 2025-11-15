@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data 
+data/
+images/
+
+
+# Runs
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+wandb/
+*.log
